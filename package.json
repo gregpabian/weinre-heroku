@@ -20,15 +20,18 @@
   "directories": {
     "lib": "./lib"
   },
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "coffee-script": "1.2.0",
     "express": "2.5.7",
     "nopt": "1.0.10",
     "underscore": "1.3.1"
   },
-  "main": "./lib/weinre",
+  "main": "./index.js",
   "bin": {
-    "weinre": "./weinre"
+    "weinre": "./index.js"
   },
   "homepage": "http://people.apache.org/~pmuellr/weinre/",
   "bugs": {
